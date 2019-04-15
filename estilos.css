@@ -1,0 +1,22 @@
+/*agregamos los estilos para nuestra tabla y div*/
+div{
+  border: 1px solid black;
+}
+table{
+  width: 100%;
+  border-spacing: 0;
+}
+td{
+  height: 10px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  border-color: grey;
+}
+/*agregamos los estilos que determinaran si una celda estara viva o muerta*/
+.alive{
+  background-color: black;
+}
+.dead{
+  background-color: white;
+}

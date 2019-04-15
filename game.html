@@ -1,0 +1,18 @@
+<html>
+<head>
+  <title>Game of Life</title>
+  <link href="estilos.css" type="text/text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!-- En esta parte del head se establecen los links a bootstrap y nuestra hoja de estilos propia-->
+</head>
+<body>
+  <!-- Aca dividimos la pantalla para tener una zona donde se encontraran nuestros botones de inicio y reset -->
+  <div class="row-md-2">
+    <!--Ambos botones llamaran a una funcion diferente al darle click -->
+    <input type="button" value="Begin life" class="btn btn-success" onclick="beginGame()"/>
+    <input type="button" value="Reset" class="btn btn-success" onclick="reiniciar()"/>
+  </div>
+<!--Agregamos el link a nuestro javascript-->
+<script src="life.js"></script>
+</body>
+</html>
